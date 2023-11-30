@@ -1,19 +1,24 @@
-body{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px ;
+.body {
+
+    font-size: 20px;
     padding: 60px;
     margin: 33px;
     background: azure;
 }
 
-h1{
+.nav {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+    height: 60px;
     text-align: center;
-    color: blue;
-    margin-top: -60px;
-    margin-bottom: 50px;
+
 }
 
-.container{
+.h1 {
+    color: blue;
+    padding-top: 13px;
+}
+
+.container {
     padding: 5px 20px 15px 20px;
     border: 1.5px solid rgb(140, 224, 106);
     border-radius: 4px;
@@ -21,96 +26,105 @@ h1{
     margin: 10px;
 }
 
-label{
-   display: inline-block;
-   width: 120px;
-   font-weight: 600;
+label {
+    display: inline-block;
+    width: 120px;
+    font-weight: 600;
 }
 
-div{
+div {
     padding: 8px;
 }
 
-input[type="text"], input[type="email"]{
+input[type="text"],
+input[type="email"] {
     border: 2px solid rgb(7, 156, 94);
     border-radius: 4px;
     text-align: center;
     align-items: center;
     margin-left: 50px;
-    padding-bottom: 10px ;
+    padding-bottom: 10px;
 }
 
-input[type="radio"],input[type="checkbox"]{
+input[type="radio"],
+input[type="checkbox"] {
     border: 2px solid rgb(7, 156, 94);
     border-radius: 4px;
     text-align: center;
     align-items: center;
     margin-left: 50px;
-    padding-bottom: 10px ;
+    padding-bottom: 10px;
 }
 
-.table{
+.table {
     margin-left: 140px;
     margin-top: -400px;
     border: 1px solid black;
     border-collapse: collapse;
 }
 
-.vl{
+.vl {
     border-left: 3px solid green;
     height: 500px;
     position: absolute;
     left: 50%;
     margin-left: -3px;
-    top: 100px;
+    top: 113px;
 }
 
-#enrolled{
+#enrolled {
     text-align: center;
     color: blue;
     margin-top: -60px;
     margin-bottom: 50px;
 }
+
 .table {
-    float:right;
+    float: right;
     padding-bottom: 20px;
 }
-th,  td, tr, .table{
+
+th,
+td,
+tr,
+.table {
     padding: 10px;
     width: 60px;
     border: 2px solid rgb(56, 56, 56);
 }
-.td{
+
+.td {
     padding: 10px;
     width: 60px;
     border: 2px solid rgb(56, 56, 56);
 }
 
 tbody tr:nth-child(odd) {
-    background: rgb(255, 212, 185);
+    background: rgb(255, 212, 185);
 }
 
-th{
+th {
     background: rgb(162, 223, 249);
 }
 
-.delete{
+.delete {
     background: rgb(237, 106, 106);
     border: 1px solid red;
     border-radius: 2px;
-    margin-left:20px;
+    margin-left: 20px;
     font-weight: 500;
 }
 
-.edit{
+.edit {
     background: rgb(103, 241, 116);
     border: 1px solid green;
     border-radius: 2px;
-    margin-left:20px;
+    margin-left: 20px;
     font-weight: 500;
 }
 
-input[type="submit"],input[type="reset"]{
+input[type="submit"],
+input[type="reset"] {
     display: inline-block;
     height: 50px;
     border-radius: 10px;
@@ -120,7 +134,7 @@ input[type="submit"],input[type="reset"]{
     font-weight: bold;
 }
 
-input[type="submit"]{
+input[type="submit"] {
     border: 1px solid green;
     width: 180px;
     background: rgb(68, 230, 143);
@@ -128,19 +142,19 @@ input[type="submit"]{
     margin-top: 100px;
 }
 
-input[type="submit"]:hover{
+input[type="submit"]:hover {
     width: 180px;
     color: white;
     background: rgb(11, 197, 98);
 }
 
-input[type="reset"]{
+input[type="reset"] {
     border: 1px solid red;
     width: 120px;
     background: rgb(249, 46, 46);
 }
 
-input[type="reset"]:hover{
+input[type="reset"]:hover {
     width: 120px;
     color: white;
     background: rgb(185, 22, 22);
