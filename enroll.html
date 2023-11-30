@@ -10,57 +10,67 @@
 </head>
 
 <body>
-    <h1>Student Enrollment form</h1>
-    <div class="vl"></div>
-    <form autocomplete="off" onsubmit="onFormSubmit()">
-        <div>
-            <label for="Name">Name</label>
-            <input type="text" name="name" id="name" required>
-        </div>
-        <div>
-            <label for="Email">Email id</label>
-            <input type="text" name="email" id="email" required>
-        </div>
-        <div>
-            <label for="college_name">College name</label>
-            <input type="text" name="clgname" id="clgname" required>
-        </div>
-        <div id="gender">
-            <label for="gender">Gender</label>
-            <input type="radio" name="gender" value="male"> Male
-            <input type="radio" name="gender" value="female"> Female
-        </div>
-        <div id="skills">
-            <label for="skills">Skills</label>
-            <input type="checkbox" name="language" id="s1" class="lg" value="HTML">HTML
-            <input type="checkbox" name="language" id="s2" class="lg" value="CSS">CSS
-            <input type="checkbox" name="language" id="s3" class="lg" value="Javascript">Javascript
-        </div>
+
+    <nav class="nav">
+
+        <h1 class="h1">Student Enrollment form</h1>
+
+    </nav>
+
+    <div class="body">
 
 
-        <div class="form_action--button">
-            <input type="submit" value="Enroll student">
-            <input type="reset" value="Reset">
-        </div>
-    </form>
+        <div class="vl"></div>
+        <form autocomplete="off" onsubmit="onFormSubmit()">
+            <div>
+                <label for="Name">Name</label>
+                <input type="text" name="name" id="name" required>
+            </div>
+            <div>
+                <label for="Email">Email id</label>
+                <input type="text" name="email" id="email" required>
+            </div>
+            <div>
+                <label for="college_name">College name</label>
+                <input type="text" name="clgname" id="clgname" required>
+            </div>
+            <div id="gender">
+                <label for="gender">Gender</label>
+                <input type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female
+            </div>
+            <div id="skills">
+                <label for="skills">Skills</label>
+                <input type="checkbox" name="language" id="s1" class="lg" value="HTML">HTML
+                <input type="checkbox" name="language" id="s2" class="lg" value="CSS">CSS
+                <input type="checkbox" name="language" id="s3" class="lg" value="Javascript">Javascript
+            </div>
 
-    <td class="td">
-        <table class="table" id="storeTable">
-            <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>Email_id</th>
-                    <th>College name</th>
-                    <th>Gender</th>
-                    <th>Skills</th>
-                    <th>Update</th>
-                </tr>
-            </thead>
-            <tbody>
 
-            </tbody>
-        </table>
-    </td>
+            <div class="form_action--button">
+                <input type="submit" value="Enroll student">
+                <input type="reset" value="Reset">
+            </div>
+        </form>
+
+        <td class="td">
+            <table class="table" id="storeTable">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email_id</th>
+                        <th>College name</th>
+                        <th>Gender</th>
+                        <th>Skills</th>
+                        <th>Update</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </td>
+    </div>
     <script type="text/javascript" src="enroll.js"></script>
 </body>
 
